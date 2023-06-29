@@ -799,6 +799,9 @@ hr.post-end {
 }
 
 @media (max-width: 520px) {
+  .site-main {
+    margin-top: 6em;
+  }
   .content figure.left,
   .content figure.right {
     float: unset;
