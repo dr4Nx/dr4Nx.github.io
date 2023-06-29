@@ -8,6 +8,11 @@ tags=["jonawhobad"]
 toc=true
 +++
 
+## My first post!!!
+
+This is mostly me testing random markdown stuff I don't know
+
+## Lists
 So i went there and did all that but as you know:
 * This point was important 
 * This as well...
@@ -23,10 +28,10 @@ And then the guy said:
 > Man, i'm not gonna be the part of the system
 
 And showed me this:
-
+## Image
 <img src="https://dummyimage.com/640x4:3/">
 
-
+## Code
 I said factorial this...
 
 ```rust
@@ -49,6 +54,6 @@ Then i shouted
 ### Hello 
 
 #### Hello 
-[zola!!!][1]
+[I am cool!!!][1]
 
-[1]: https://www.getzola.org/
+[1]: https://dr4Nx.github.io/about
