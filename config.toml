@@ -62,7 +62,7 @@ extra_syntaxes = []
 # will be accessible in all templates
 [extra]
 
-home_subtitle = "I draw whales"
+home_subtitle = "Developer, Student, Gamer"
 
 footer_copyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
@@ -72,8 +72,8 @@ hermit_menu = [
 ]
 
 hermit_social = [
-    { name = "twitter", link = "https://twitter.com" },
-    { name = "github", link = "https://github.com" },
+    { name = "instagram", link = "https://www.instagram.com/eevanluo/" },
+    { name = "github", link = "https://github.com/dr4Nx" },
     { name = "email", link = "mailto:evan.luo.2048@gmail.com" }
 ]
 
