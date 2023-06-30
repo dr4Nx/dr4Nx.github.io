@@ -7,6 +7,81 @@
  *
  * Copyright (c) 2018 Daniel Eden
  */
+ @-webkit-keyframes nameBounce {
+    0%,
+    15%,
+    75%,
+    to {
+        -webkit-animation-timing-function: cubic-bezier(.215, .61, .355, 1);
+        animation-timing-function: cubic-bezier(.215, .61, .355, 1)
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+        font-size: 400%;
+    }
+
+    15% {
+        opacity: 1;
+        -webkit-transform: translateY(80%);
+        transform: translateY(80%);
+        font-size: 400%;
+    }
+    75% {
+        opacity: 1;
+        -webkit-transform: translateY(80%);
+        transform: translateY(80%);
+        font-size: 400%;
+    }
+    to {
+        -webkit-transform: translateY(0%);
+        transform: translateY(0%);
+        font-size: 200%
+    }
+ }
+
+ @keyframes nameBounce {
+    0%,
+    15%,
+    75%,
+    to {
+        -webkit-animation-timing-function: cubic-bezier(.215, .61, .355, 1);
+        animation-timing-function: cubic-bezier(.215, .61, .355, 1)
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+        font-size: 400%;
+    }
+
+    15% {
+        opacity: 1;
+        -webkit-transform: translateY(80%);
+        transform: translateY(80%);
+        font-size: 400%;
+    }
+    75% {
+        opacity: 1;
+        -webkit-transform: translateY(80%);
+        transform: translateY(80%);
+        font-size: 400%;
+    }
+    to {
+        -webkit-transform: translateY(0%);
+        transform: translateY(0%);
+        font-size: 200%
+    }
+ }
+
+
+ .nameBounce {
+    -webkit-animation-name: nameBounce;
+    animation-name: nameBounce
+}
 
 @-webkit-keyframes bounceInRight {
 
@@ -46,6 +121,8 @@
         transform: translateZ(0)
     }
 }
+
+
 
 @keyframes bounceInRight {
 
