@@ -36,16 +36,16 @@
 	{% endblock header %}
 	
 	{% block title %}
-	<div id="spotlight" class="animated fadeIn">
+	<div id="spotlight">
 	  <div id="home-center">
-		<h1 id="home-title">{{config.title}}</h1>
-		<p id="home-subtitle">{{config.extra.home_subtitle}}</p>
-		<div id="home-social">
+		<h1 id="home-title" class="animated fadeIn">{{config.title}}</h1>
+		<p id="home-subtitle" class="animated fadeIn delay-1s">{{config.extra.home_subtitle}}</p>
+		<div id="home-social" class="animated fadeIn delay-2s">
 		  {{macros::render_social_icons()}}
 		</div>
 		{% endblock title %}
 		{% block main %}
-		<nav id="home-nav" class="site-nav">
+		<nav id="home-nav" class="site-nav animated fadeIn delay-3s">
 		  {% for s in config.extra.hermit_menu %}
 		  <a href="{{config.base_url ~ s.link}}">{{s.name}}</a>
 		  {% endfor %}
