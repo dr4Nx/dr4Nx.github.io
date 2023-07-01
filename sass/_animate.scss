@@ -203,21 +203,25 @@
 
 @-webkit-keyframes fadeIn {
     0% {
-        opacity: 0
+        opacity: 0;
+        pointer-events: none
     }
 
     to {
-        opacity: 1
+        opacity: 1;
+        pointer-events: all
     }
 }
 
 @keyframes fadeIn {
     0% {
-        opacity: 0
+        opacity: 0;
+        pointer-events: none
     }
 
     to {
-        opacity: 1
+        opacity: 1;
+        pointer-events: all
     }
 }
 
