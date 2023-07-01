@@ -69,7 +69,8 @@ footer_copyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/
 hermit_menu = [
     { link = "/posts", name = "Posts" },
     { link = "/about", name = "About" },
-    { link = "/projects", name = "Projects"}
+    { link = "/projects", name = "Projects"},
+    { link = "/tags", name = "Tags"}
 ]
 
 hermit_social = [
