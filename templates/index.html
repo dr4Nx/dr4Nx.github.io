@@ -7,7 +7,7 @@
   <meta itemprop="name" content="{{config.title}}" />
   <meta itemprop="description" content="{{config.description}}" />
 
-  <link rel="apple-touch-icon" sizes="180x180" href="{{get_url(path="apple-touch-icon.png")}}"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="{{get_url(path="apple-touch-icon.png")}}" />
   <link rel="icon" type="image/png" sizes="32x32" href="{{get_url(path="favicon-32x32.png")}}" />
   <link
     rel="icon"
@@ -19,7 +19,7 @@
     rel="shortcut icon"
     href="{{get_url(path="favicon.ico")}}"
   />
-  <link rel="stylesheet" href="{{get_url(path="style.css")}}"/>
+  <link rel="stylesheet" href="{{get_url(path="style.css")}}" />
   {% if page.title %}
   <title>{{page.title}}</title>
   {% else %}
@@ -38,7 +38,10 @@
 	{% block title %}
 	<div id="spotlight">
 	  <div id="home-center">
-		<h1 id="home-title" class="animated nameBounce slower">{{config.title}}</h1>
+	  	<h1 id="home-title" class="animated nameBounce slower">{{config.title}}</h1>
+	  	<div class="image-cropper animated nameBounce slower">
+			<img src="firstframeswordthing2.jpg">
+		</div>
 		<p id="home-subtitle" class="animated fadeIn delay-3s">{{config.extra.home_subtitle}}</p>
 		<div id="home-social" class="animated fadeIn delay-3s">
 		  {{macros::render_social_icons()}}
