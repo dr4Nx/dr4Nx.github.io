@@ -8,6 +8,6 @@ A bit about myself:
 I'm a Californian senior in high school. I'm a math teamer, cyber competitor, machine learning researcher, history and current events enthusiast, and VALORANT grinder. 
 
 My email as listed is not my main email. If you send one, give me 2-3 business days to reply.
-I may or may not let you follow my Instagram.
+I may or may not let you follow my LinkedIn.
 
 You can also find me on Discord: username dranx.
