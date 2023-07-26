@@ -74,7 +74,7 @@ hermit_menu = [
 ]
 
 hermit_social = [
-    { name = "linkedin", link = "www.linkedin.com/in/evan-l-dranx" },
+    { name = "linkedin", link = "https://www.linkedin.com/in/evan-l-dranx" },
     { name = "github", link = "https://github.com/dr4Nx" },
     { name = "email", link = "mailto:evan.luo.2048@gmail.com" }
 ]
