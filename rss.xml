@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Evan Luo</title>
+      <link>https://dr4Nx.github.io</link>
+      <description>Evan&#x27;s website</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://dr4Nx.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Wed, 28 Jun 2023 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Test post 123</title>
+          <pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://dr4Nx.github.io/posts/good-first-post/</link>
+          <guid>https://dr4Nx.github.io/posts/good-first-post/</guid>
+          <description>&lt;h2 id=&quot;my-first-post&quot;&gt;My first post!!!&lt;&#x2F;h2&gt;
+&lt;p&gt;This is mostly me testing random markdown stuff I don&#x27;t know&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;lists&quot;&gt;Lists&lt;&#x2F;h2&gt;
+&lt;p&gt;So i went there and did all that but as you know:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;This point was important &lt;&#x2F;li&gt;
+&lt;li&gt;This as well...&lt;&#x2F;li&gt;
+&lt;li&gt;And not to mention this one&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;So i did those other things but:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;The first thing&lt;&#x2F;li&gt;
+&lt;li&gt;And the second thing&lt;&#x2F;li&gt;
+&lt;li&gt;But the third was the &lt;code&gt;best&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;And then the guy said:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Man, i&#x27;m not gonna be the part of the system&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;And showed me this:&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;image&quot;&gt;Image&lt;&#x2F;h2&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;dummyimage.com&#x2F;640x4:3&#x2F;&quot;&gt;
+&lt;h2 id=&quot;code&quot;&gt;Code&lt;&#x2F;h2&gt;
+&lt;p&gt;I said factorial this...&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rust&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;fn factorial(n: u64) -&amp;gt; u64 {
+    match n {
+        0 =&amp;gt; 1,
+        _ =&amp;gt; n * factorial(n-1)
+    }
+}
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Then i shouted&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;hello&quot;&gt;Hello&lt;&#x2F;h1&gt;
+&lt;p&gt;... and the echo answered:&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;hello-1&quot;&gt;Hello&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;hello-2&quot;&gt;Hello&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;hello-3&quot;&gt;Hello&lt;&#x2F;h4&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;dr4Nx.github.io&#x2F;about&quot;&gt;I am cool!!!&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>
