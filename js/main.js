@@ -19,16 +19,16 @@
     new Typed('.typed', {
       strings: typed_strings,
       loop: true,
-      typeSpeed: 100,
-      backSpeed: 50,
-      backDelay: 2000
+      typeSpeed: 75,
+      backSpeed: 25,
+      backDelay: 3000
     });
   }
 
 
   window.addEventListener('load', () => {
     AOS.init({
-      duration: 2000,
+      duration: 1000,
       easing: 'ease-in-out',
       once: true,
       mirror: false
